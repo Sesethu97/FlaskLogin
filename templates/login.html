@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <div class ="flex h-screen bg-gradient-to-r from-black to-pink-500">
+        <div class=" m-auto">
+            
+            <form action="/form_login" method="post">
+            <h2></h2>Username:<br>
+            <input type="text" name='username'><br>
+            Password:<br>
+            <input  name='password' ><br><br>
+            <input type="submit" value="Login">
+            </form>
+            <h1 class="text-6xl font-bold italic underline text-red-700 bg-white">{{info}}</h1>
+        </div>    
+    </div>
+</body>
+</html>
