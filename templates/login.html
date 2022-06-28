@@ -13,15 +13,14 @@
 <body>
     <div class ="flex h-screen bg-gradient-to-r from-black to-pink-500">
         <div class=" m-auto">
-            
-            <form action="/form_login" method="post">
+            <form class="border border-black p-5 bg-white" action="/form_login" method="post">
             <h2></h2>Username:<br>
-            <input type="text" name='username' size="12" style="font-face: 'Comic Sans MS'; font-size: larger; color: rgb(1, 1, 1); border: 1pt ridge rgb(1, 1, 1)"><br>
+            <input type="text" name='username'  class="border border-red-800"><br>
             Password:<br>
-            <input  name='password' style="font-face: 'Comic Sans MS'; font-size: larger; color: rgb(1, 1, 1); border: 1pt ridge rgb(1, 1, 1)" ><br><br>
-            <input type="submit" style="font-face: 'Comic Sans MS'; font-size: larger; color: rgb(1, 1, 1); border: 1pt ridge rgb(1, 1, 1)"value="Login">
-            </form>
-            <h1 class="text-6xl  font-bold italic text-red-700">{{info}}</h1>
+            <input  name='password'  class="border border-red-800"><br><br>
+            <input type="submit" value="Login">
+            </form><br><br>
+            <h1 class="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">{{info}}</h1>
         </div>    
     </div>
 </body>
